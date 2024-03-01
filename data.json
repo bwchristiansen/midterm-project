@@ -1,1 +1,10 @@
-
+{
+    "movies": [
+        {
+            "title": "Oppenheimer",
+            "year": 2023,
+            "rating": "R",
+            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg"
+        }
+    ]
+}
