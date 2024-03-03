@@ -1,5 +1,25 @@
 {
-    "movies": [
+    "newMovies": [
+        {
+            "title": "Dune: Part Two",
+            "year": 2024,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/M/MV5BODdjMjM3NGQtZDA5OC00NGE4LWIyZDQtZjYwOGZlMTM5ZTQ1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        }, 
+        {
+            "title": "Aquaman and the Lost Kingdom",
+            "year": 2023,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/M/MV5BMzZlZDQ5NWItY2RjMC00NjRiLTlmZTgtZGE2ODEyMjVlOTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+        },
+        {
+            "title": "Oppenheimer",
+            "year": 2023,
+            "rating": "R",
+            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg"
+        }
+    ],
+    "catalog": [
         {
             "title": "Oppenheimer",
             "year": 2023,
