@@ -2,19 +2,40 @@ fetch('./data.json')
     .then(response => response.json())
     .then(myMovies => loadMovies(myMovies));
 
-function loadMovies(myMovies) {
-    for (let i = 0; i < myMovies.newMovies.length; i++) {
-        let test = "newMovie" + i
-        var mainContainer = document.getElementById(test);
-        let title = myMovies.newMovies[i].title;
-        let year = myMovies.newMovies[i].year;
-        let url = myMovies.newMovies[i].url;
-        let rating = myMovies.newMovies[i].rating;
+// function loadMovies(myMovies) {
+//     for (let i = 0; i < myMovies.newMovies.length; i++) {
+//         let test = "newMovie" + i;
+//         var mainContainer = document.getElementById(test);
+//         let title = myMovies.newMovies[i].title;
+//         let year = myMovies.newMovies[i].year;
+//         let url = myMovies.newMovies[i].url;
+//         let rating = myMovies.newMovies[i].rating;
 
-        let div = document.createElement("div");
-        div.innerHTML = `<img src=${url} width = "200"> <h3>${title}</h3> <br> <br>`;
-        mainContainer.appendChild(div);
-        console.log(div)
+//         let div = document.createElement("div");
+//         div.innerHTML = `<img src=${url} width = "200"> <h3>${title}</h3> <br> <br>`;
+//         mainContainer.appendChild(div);
+//         console.log(div)
+//     }
+// }
+
+function loadMovies(myMovies){
+    for (let i = 0; i < myMovies.newMovies.length; i++){
+        let movie = myMovies.newMovies[i];
+        let containerId = `newMovie${i}`;
+        let mainContainer = document.getElementById(containerId);
+
+        if (mainContainer) {
+            let { title, year, url, rating } = movie;
+
+            let div = document.createElement("div");
+            div.innerHTML = `
+            <img src="${url}" width="200">
+            <h3>${title}</h3>
+            <p>${year}</p>
+            <p>${rating}</p>
+            <br><br>`;
+            mainContainer.appendChild(div);
+        }
     }
 }
 
