@@ -25,10 +25,81 @@
     ],
     "catalog": [
         {
+            "title": "Dune: Part Two",
+            "year": 2024,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/M/MV5BODdjMjM3NGQtZDA5OC00NGE4LWIyZDQtZjYwOGZlMTM5ZTQ1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+            "description": "The epic odyssey of Paul Atreides unfolds as he joins forces with Chani and the Fremen on a quest for vengeance, striving to avert a dire future that only he possesses the foresight to anticipate."
+        }, 
+        {
+            "title": "Aquaman and the Lost Kingdom",
+            "year": 2023,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/M/MV5BMzZlZDQ5NWItY2RjMC00NjRiLTlmZTgtZGE2ODEyMjVlOTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+            "description": "While facing the challenges of ruling the Seven Seas, Arthur Curry encounters the awakening of an ancient power buried for centuries. Confronted by the ominous impact of these malevolent forces, Aquaman finds himself compelled to form a fragile alliance with a former adversary. Together, they embark on a perilous quest to safeguard his family, kingdom, and the entire world from impending and irreversible destruction."
+        },
+        {
             "title": "Oppenheimer",
             "year": 2023,
             "rating": "R",
-            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg"
+            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+            "description": "Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., and Florence Pugh feature in Christopher Nolan's awe-inspiring international sensation centered on the creator of the atomic bomb."
+        },
+        {
+            "title": "BeeKeeper",
+            "year": 2024,
+            "rating": "R",
+            "url": "https://m.media-amazon.com/images/I/A1-mLhSYWVL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "In the movie The Beekeeper, the intense quest for revenge by an individual escalates to a nationwide crisis when his identity is exposed as a former member of a secretive and influential group called the Beekeepers. Jason Statham takes on the lead role in this gripping and adrenaline-fueled thriller."
+        },
+        {
+            "title": "Titanic",
+            "year": 1997,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/I/71ps2xBoAuL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+        },
+        {
+            "title": "E.T. the Extra-Terrestrial",
+            "year": 1982,
+            "rating": "PG",
+            "url": "https://m.media-amazon.com/images/I/81dr-IEXEML._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Embark on a nostalgic return to the enchantment and excitement of what Leonard Maltin hails as one of the great American films. This cherished story revolves around a stranded extraterrestrial and the 10-year-old boy who aids him in discovering a path back home."
+        },
+        {
+            "title": "The Wizard of Oz",
+            "year": 1939,
+            "rating": "PG",
+            "url": "https://m.media-amazon.com/images/I/91FIDXUBuyL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Dorothy Gale, a young girl, and her dog Toto get caught in a tornado, transporting them from their Kansas farm to the fantastical Land of Oz. Together with three newfound companions, they undertake a journey to reach the Wizard, who holds the power to send Dorothy back home and grant the wishes of her fellow travelers."
+        },
+        {
+            "title": "Star Wars: Episode IV - A New Hope",
+            "year": 1977,
+            "rating": "PG",
+            "url": "https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Luke Skywalker teams up with a Jedi Knight, a confident pilot, a Wookiee, and two droids in a collaborative effort to thwart the Empire's formidable battle station, which has the capacity to annihilate worlds. Simultaneously, they strive to rescue Princess Leia from the enigmatic Darth Vader, aiming to save the galaxy from impending doom."
+        },
+        {
+            "title": "The Lord of the Rings: The Return of the King",
+            "year": 2003,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/I/91LAfx+AZhL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+        },
+        {
+            "title": "Snow White and the Seven Dwarfs",
+            "year": 1937,
+            "rating": "G",
+            "url": "https://m.media-amazon.com/images/I/91SfpU89wBL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household."
+        },
+        {
+            "title": "Terminator 2: Judgment Day",
+            "year": 1991,
+            "rating": "R",
+            "url": "https://m.media-amazon.com/images/I/714MLk2VWoL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg."
         }
     ]
 }
