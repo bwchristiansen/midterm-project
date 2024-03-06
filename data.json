@@ -100,6 +100,27 @@
             "rating": "R",
             "url": "https://m.media-amazon.com/images/I/714MLk2VWoL._AC_UY436_FMwebp_QL65_.jpg",
             "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg."
+        },
+        {
+            "title": "The Lion King",
+            "year": 1994,
+            "rating": "G",
+            "url": "https://m.media-amazon.com/images/I/81UpMuhj86L._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+        },
+        {
+            "title": "The Godfather",
+            "year": 1972,
+            "rating": "R",
+            "url": "https://m.media-amazon.com/images/I/714ZOEiVNtL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+        },
+        {
+            "title": "The Jesus Film",
+            "year": 1979,
+            "rating": "G",
+            "url": "https://m.media-amazon.com/images/I/81s4z8yVHLL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "Filmed on location in Israel at authentic biblical sites, this inspirational drama and commercial success retells the life of Christ."
         }
     ]
 }
