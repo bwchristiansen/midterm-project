@@ -4,20 +4,24 @@
             "title": "Dune: Part Two",
             "year": 2024,
             "rating": "PG-13",
-            "url": "https://m.media-amazon.com/images/M/MV5BODdjMjM3NGQtZDA5OC00NGE4LWIyZDQtZjYwOGZlMTM5ZTQ1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+            "url": "https://m.media-amazon.com/images/M/MV5BODdjMjM3NGQtZDA5OC00NGE4LWIyZDQtZjYwOGZlMTM5ZTQ1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+            "description": "The epic odyssey of Paul Atreides unfolds as he joins forces with Chani and the Fremen on a quest for vengeance, striving to avert a dire future that only he possesses the foresight to anticipate."
         }, 
         {
             "title": "Aquaman and the Lost Kingdom",
             "year": 2023,
             "rating": "PG-13",
-            "url": "https://m.media-amazon.com/images/M/MV5BMzZlZDQ5NWItY2RjMC00NjRiLTlmZTgtZGE2ODEyMjVlOTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
+            "url": "https://m.media-amazon.com/images/M/MV5BMzZlZDQ5NWItY2RjMC00NjRiLTlmZTgtZGE2ODEyMjVlOTJhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+            "description": "While facing the challenges of ruling the Seven Seas, Arthur Curry encounters the awakening of an ancient power buried for centuries. Confronted by the ominous impact of these malevolent forces, Aquaman finds himself compelled to form a fragile alliance with a former adversary. Together, they embark on a perilous quest to safeguard his family, kingdom, and the entire world from impending and irreversible destruction."
         },
         {
             "title": "Oppenheimer",
             "year": 2023,
             "rating": "R",
-            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg"
+            "url": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+            "description": "Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr., and Florence Pugh feature in Christopher Nolan's awe-inspiring international sensation centered on the creator of the atomic bomb."
         }
+        
     ],
     "catalog": [
         {
