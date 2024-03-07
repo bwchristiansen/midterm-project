@@ -1,11 +1,12 @@
 fetch('./data.json')
-    .then(response => response.json())
-    .then(myMovies => {
-        loadMovies(myMovies);
-    });
+  .then(response => response.json())
+  .then(myMovies => { loadMovies(myMovies) });
 fetch('./data.json')
-    .then(response => response.json())
-    .then(myMovies => loadMoviesMarketing(myMovies));
+  .then(response => response.json())
+  .then(myMovies => loadMoviesMarketing(myMovies));
+fetch('./data.json')
+  .then(response => response.json())
+  .then(myMovies => loadMoviesCatalog(myMovies));
 
 // function loadMovies(myMovies){
 //     for (let i = 0; i < myMovies.newMovies.length; i++){
@@ -29,17 +30,17 @@ fetch('./data.json')
 // }
 
 function loadMovies(myMovies) {
-    for (let i = 0; i < myMovies.newMovies.length; i++) {
-      let movie = myMovies.newMovies[i];
-      let containerId = `newMovie${i}`;
-      let movieContainer = document.getElementById(containerId);
-  
-      if (movieContainer) {
-        let { title, year, url, rating } = movie;
-  
-        let movieDiv = document.createElement("div");
-        movieDiv.classList.add("movie-content");
-        movieDiv.innerHTML = `
+  for (let i = 0; i < myMovies.newMovies.length; i++) {
+    let movie = myMovies.newMovies[i];
+    let containerId = `newMovie${i}`;
+    let movieContainer = document.getElementById(containerId);
+
+    if (movieContainer) {
+      let { title, year, url, rating } = movie;
+
+      let movieDiv = document.createElement("div");
+      movieDiv.classList.add("movie-content");
+      movieDiv.innerHTML = `
         <img src="${url}" width="200">
             <h3>${title}</h3>
             <p>${year}</p>
@@ -47,27 +48,47 @@ function loadMovies(myMovies) {
             <br><br>
         `;
 
-        movieContainer.appendChild(movieDiv);
-      }
+      movieContainer.appendChild(movieDiv);
     }
   }
+}
 
-  function loadMoviesMarketing(myMovies){
-    let marketingContainer = document.querySelector('.marketing .row');
+function loadMoviesMarketing(myMovies) {
+  let marketingContainer = document.querySelector('.marketing .row');
 
-    for (let i = 0; i < myMovies.newMovies.length; i++) {
-        let movie = myMovies.newMovies[i];
+  for (let i = 0; i < myMovies.newMovies.length; i++) {
+    let movie = myMovies.newMovies[i];
 
-        let { title, year, url, rating, description } = movie;
+    let { title, year, url, rating, description } = movie;
 
-        let movieContainer = document.createElement('div');
-        movieContainer.className = 'col-lg-4';
-        movieContainer.innerHTML = `
+    let movieContainer = document.createElement('div');
+    movieContainer.className = 'col-lg-4';
+    movieContainer.innerHTML = `
             <img src="${url}" class="img-fluid" alt="${title}">
             <h2 class="fw-normal">${title}</h2>
             <p>${description}</p>
         `;
 
-        marketingContainer.appendChild(movieContainer);
-    }
+    marketingContainer.appendChild(movieContainer);
   }
+}
+
+function loadMoviesCatalog(myMovies) {
+  let catalogContainer = document.querySelector('.catalog .row');
+
+  for (let i = 0; i < myMovies.catalog.length; i++) {
+    let movie = myMovies.catalog[i];
+
+    let { title, year, url, rating, description } = movie;
+
+    let movieContainer = document.createElement('div');
+    movieContainer.className = 'col-lg-4';
+    movieContainer.innerHTML = `
+            <img src="${url}" class="img-fluid" alt="${title}">
+            <h2 class="fw-normal">${title}</h2>
+            <p>${description}</p>
+        `;
+
+    catalogContainer.appendChild(movieContainer);
+  }
+}
