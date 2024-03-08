@@ -91,3 +91,34 @@ function loadMoviesCatalog(myMovies) {
     catalogContainer.appendChild(movieContainer);
   }
 }
+
+function searchMovies() {
+  // Get the search input value
+  var searchQuery = document.getElementById("movieSearch").value.toLowerCase();
+
+  // Get the catalog container
+  var catalogContainer = document.querySelector('.catalog .row');
+
+  // Clear previous search results
+  catalogContainer.innerHTML = '';
+
+  // Filter movies based on the search query
+  var filteredMovies = myMovies.catalog.filter(movie => movie.title.toLowerCase().includes(searchQuery));
+
+  // Display the filtered movies
+  for (let i = 0; i < filteredMovies.length; i++) {
+    let movie = filteredMovies[i];
+
+    let { title, year, url, rating, description } = movie;
+
+    let movieContainer = document.createElement('div');
+    movieContainer.className = 'col-lg-4';
+    movieContainer.innerHTML = `
+          <img src="${url}" class="img-fluid" alt="${title}">
+          <h2 class="fw-normal">${title}</h2>
+          <p>${description}</p>
+      `;
+
+    catalogContainer.appendChild(movieContainer);
+  }
+}
