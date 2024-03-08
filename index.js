@@ -43,8 +43,7 @@ function loadMovies(myMovies) {
       movieDiv.innerHTML = `
         <img src="${url}" width="200">
             <h3>${title}</h3>
-            <p>${year}</p>
-            <p>${rating}</p>
+
             <br><br>
         `;
 
