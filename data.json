@@ -121,6 +121,13 @@
             "rating": "G",
             "url": "https://m.media-amazon.com/images/I/81s4z8yVHLL._AC_UY436_FMwebp_QL65_.jpg",
             "description": "Filmed on location in Israel at authentic biblical sites, this inspirational drama and commercial success retells the life of Christ."
+        },
+        {
+            "title": "The Dark Knight",
+            "year": 2008,
+            "rating": "PG-13",
+            "url": "https://m.media-amazon.com/images/I/910lwRBoPLL._AC_UY436_FMwebp_QL65_.jpg",
+            "description": "The Dark Knight  is a 2008 superhero film directed by Christopher Nolan, and it is the second installment in Nolan's Batman trilogy. The film follows the iconic DC Comics character, Batman, portrayed by Christian Bale, as he faces one of his most formidable adversaries, the Joker, played by Heath Ledger."
         }
     ]
 }
